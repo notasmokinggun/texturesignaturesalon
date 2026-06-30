@@ -406,3 +406,15 @@ footer h2{
     }
 
 }
+/* Reveal Animation */
+
+.reveal{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .9s ease;
+}
+
+.revealed{
+    opacity:1;
+    transform:translateY(0);
+}
